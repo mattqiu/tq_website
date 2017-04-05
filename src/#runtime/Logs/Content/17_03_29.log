@@ -1,0 +1,99 @@
+[ 2017-03-29T16:23:39+08:00 ] 127.0.0.1 /index.php?a=shows&catid=11&id=1
+ERR: 模板:[D:\wamp\www\tianque/lvyecms/Template/Default/Content/Show/show.php] 不存在！
+ERR: 模板不存在:D:\wamp\www\tianque/lvyecms/Application/Content/View/Index/shows.php
+
+[ 2017-03-29T16:38:14+08:00 ] 127.0.0.1 /index.php?a=lists&catid=10
+ERR: 表达式错误:11
+
+[ 2017-03-29T16:38:44+08:00 ] 127.0.0.1 /index.php?a=lists&catid=10
+ERR: XML标签语法错误 : action="lists" catid=$catids order="id DESC"
+
+[ 2017-03-29T16:49:22+08:00 ] 127.0.0.1 /index.php?a=lists&catid=10
+ERR: 1054:Champ '$catids' inconnu dans where clause
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `lvyecms_anli` WHERE ( catid in ($catids) ) LIMIT 1  
+ERR: 1054:Champ '$catids' inconnu dans where clause
+ [ SQL语句 ] : SELECT * FROM `lvyecms_anli` WHERE ( catid in ($catids) ) ORDER BY id DESC LIMIT 0,8  
+
+[ 2017-03-29T16:49:37+08:00 ] 127.0.0.1 /index.php?a=lists&catid=10
+ERR: :
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `lvyecms_anli` WHERE ( catid in (<?php echo ($catids); ?>) ) LIMIT 1  
+ERR: :
+ [ SQL语句 ] : SELECT * FROM `lvyecms_anli` WHERE ( catid in (<?php echo ($catids); ?>) ) ORDER BY id DESC LIMIT 0,8  
+
+[ 2017-03-29T16:50:01+08:00 ] 127.0.0.1 /index.php?a=lists&catid=10
+ERR: XML标签语法错误 : table="anli" where="catid in ("{$catids}")" page="$page" num="8" order="id DESC"
+
+[ 2017-03-29T16:50:09+08:00 ] 127.0.0.1 /index.php?a=lists&catid=10
+ERR: 1054:Champ '$catids' inconnu dans where clause
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `lvyecms_anli` WHERE ( catid in ($catids) ) LIMIT 1  
+ERR: 1054:Champ '$catids' inconnu dans where clause
+ [ SQL语句 ] : SELECT * FROM `lvyecms_anli` WHERE ( catid in ($catids) ) ORDER BY id DESC LIMIT 0,8  
+
+[ 2017-03-29T17:12:55+08:00 ] 127.0.0.1 /index.php?a=lists&catid=11
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `lvyecms_anli` WHERE (  ) LIMIT 1  
+ERR: 1064:Erreur de syntaxe près de ') ORDER BY id DESC LIMIT 0,8' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `lvyecms_anli` WHERE (  ) ORDER BY id DESC LIMIT 0,8  
+
+[ 2017-03-29T17:13:08+08:00 ] 127.0.0.1 /index.php?a=lists&catid=11
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `lvyecms_anli` WHERE (  ) LIMIT 1  
+ERR: 1064:Erreur de syntaxe près de ') ORDER BY id DESC LIMIT 0,8' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `lvyecms_anli` WHERE (  ) ORDER BY id DESC LIMIT 0,8  
+
+[ 2017-03-29T17:13:10+08:00 ] 127.0.0.1 /index.php?a=lists&catid=12
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `lvyecms_anli` WHERE (  ) LIMIT 1  
+ERR: 1064:Erreur de syntaxe près de ') ORDER BY id DESC LIMIT 0,8' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `lvyecms_anli` WHERE (  ) ORDER BY id DESC LIMIT 0,8  
+
+[ 2017-03-29T17:39:56+08:00 ] 127.0.0.1 /
+ERR: 1064:Erreur de syntaxe près de 'LIMIT 2, 10 ) AND `catid` = 11 AND `status` = 99 ORDER BY id DESC LIMIT 10' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `lvyecms_anli` WHERE ( LIMIT 2, 10 ) AND `catid` = 11 AND `status` = 99 ORDER BY id DESC LIMIT 10  
+ERR: 1064:Erreur de syntaxe près de 'LIMIT 2, 10 ) AND `catid` = 12 AND `status` = 99 ORDER BY id DESC LIMIT 10' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `lvyecms_anli` WHERE ( LIMIT 2, 10 ) AND `catid` = 12 AND `status` = 99 ORDER BY id DESC LIMIT 10  
+
+[ 2017-03-29T17:40:16+08:00 ] 127.0.0.1 /
+ERR: 1064:Erreur de syntaxe près de 'LIMIT 1, 10 ) AND `catid` = 11 AND `status` = 99 ORDER BY id DESC LIMIT 10' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `lvyecms_anli` WHERE ( LIMIT 1, 10 ) AND `catid` = 11 AND `status` = 99 ORDER BY id DESC LIMIT 10  
+ERR: 1064:Erreur de syntaxe près de 'LIMIT 1, 10 ) AND `catid` = 12 AND `status` = 99 ORDER BY id DESC LIMIT 10' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `lvyecms_anli` WHERE ( LIMIT 1, 10 ) AND `catid` = 12 AND `status` = 99 ORDER BY id DESC LIMIT 10  
+
+[ 2017-03-29T17:41:25+08:00 ] 127.0.0.1 /
+ERR: 1064:Erreur de syntaxe près de 'LIMIT 0, 10 ) AND `catid` = 11 AND `status` = 99 ORDER BY id DESC LIMIT 10' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `lvyecms_anli` WHERE ( LIMIT 0, 10 ) AND `catid` = 11 AND `status` = 99 ORDER BY id DESC LIMIT 10  
+ERR: 1064:Erreur de syntaxe près de 'LIMIT 0, 10 ) AND `catid` = 12 AND `status` = 99 ORDER BY id DESC LIMIT 10' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `lvyecms_anli` WHERE ( LIMIT 0, 10 ) AND `catid` = 12 AND `status` = 99 ORDER BY id DESC LIMIT 10  
+
+[ 2017-03-29T17:41:58+08:00 ] 127.0.0.1 /
+ERR: 1064:Erreur de syntaxe près de 'LIMIT 0, 10 ) AND `catid` = 11 AND `status` = 99 ORDER BY id DESC LIMIT 10' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `lvyecms_anli` WHERE ( 0 = 0 and LIMIT 0, 10 ) AND `catid` = 11 AND `status` = 99 ORDER BY id DESC LIMIT 10  
+ERR: 1064:Erreur de syntaxe près de 'LIMIT 0, 10 ) AND `catid` = 12 AND `status` = 99 ORDER BY id DESC LIMIT 10' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `lvyecms_anli` WHERE ( 0 = 0 and LIMIT 0, 10 ) AND `catid` = 12 AND `status` = 99 ORDER BY id DESC LIMIT 10  
+
+[ 2017-03-29T17:42:07+08:00 ] 127.0.0.1 /
+ERR: 1064:Erreur de syntaxe près de 'LIMIT 0, 10 ) AND `catid` = 11 AND `status` = 99 ORDER BY id DESC LIMIT 10' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `lvyecms_anli` WHERE ( 0 = 0 LIMIT 0, 10 ) AND `catid` = 11 AND `status` = 99 ORDER BY id DESC LIMIT 10  
+ERR: 1064:Erreur de syntaxe près de 'LIMIT 0, 10 ) AND `catid` = 12 AND `status` = 99 ORDER BY id DESC LIMIT 10' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `lvyecms_anli` WHERE ( 0 = 0 LIMIT 0, 10 ) AND `catid` = 12 AND `status` = 99 ORDER BY id DESC LIMIT 10  
+
+[ 2017-03-29T18:01:38+08:00 ] 127.0.0.1 /index.php?a=lists&catid=13
+ERR: 模板:[D:\wamp\www\tianque/lvyecms/Template/Default/Content/List/list.php] 不存在！
+ERR: 模板不存在:D:\wamp\www\tianque/lvyecms/Application/Content/View/Index/lists.php
+
+[ 2017-03-29T18:22:25+08:00 ] 127.0.0.1 /index.php?a=lists&catid=15
+ERR: 模板:[D:\wamp\www\tianque/lvyecms/Template/Default/Content/Page/page.php] 不存在！
+ERR: 模板不存在:D:\wamp\www\tianque/lvyecms/Application/Content/View/Index/lists.php
+
+[ 2017-03-29T18:35:39+08:00 ] 127.0.0.1 /index.php?a=lists&catid=15
+ERR: 模板:[D:\wamp\www\tianque/lvyecms/Template/Default/Content/Page/page_guanyuwomen.php] 不存在！
+ERR: 模板不存在:D:\wamp\www\tianque/lvyecms/Application/Content/View/Index/lists.php
+
+[ 2017-03-29T18:35:47+08:00 ] 127.0.0.1 /index.php?a=lists&catid=15
+ERR: 模板:[D:\wamp\www\tianque/lvyecms/Template/Default/Content/Page/page_guanyuwomen.php] 不存在！
+ERR: 模板不存在:D:\wamp\www\tianque/lvyecms/Application/Content/View/Index/lists.php
+
+[ 2017-03-29T18:35:55+08:00 ] 127.0.0.1 /index.php?a=lists&catid=15
+ERR: 模板:[D:\wamp\www\tianque/lvyecms/Template/Default/Content/Page/page_guanyuwomen.php] 不存在！
+ERR: 模板不存在:D:\wamp\www\tianque/lvyecms/Application/Content/View/Index/lists.php
+

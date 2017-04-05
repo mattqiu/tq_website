@@ -1,0 +1,47 @@
+[ 2017-03-28T12:32:25+08:00 ] 127.0.0.1 /
+ERR: 1146:La table 'tianquecms.lvyecms_article' n'existe pas
+ [ SQL语句 ] : select * from lvyecms_article  where status=99 order by inputtime desc LIMIT 9 
+
+[ 2017-03-28T12:35:48+08:00 ] 127.0.0.1 /
+ERR: 1146:La table 'tianquecms.lvyecms_article' n'existe pas
+ [ SQL语句 ] : select * from lvyecms_article  where status=99 order by inputtime desc LIMIT 9 
+
+[ 2017-03-28T15:02:41+08:00 ] 127.0.0.1 /
+ERR: 1146:La table 'tianquecms.lvyecms_indexbanner' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `lvyecms_indexbanner`
+ERR: 1146:La table 'tianquecms.lvyecms_indexbanner' n'existe pas
+ [ SQL语句 ] : SELECT * FROM `lvyecms_indexbanner` ORDER BY listorders DESC LIMIT 20  
+
+[ 2017-03-28T15:03:03+08:00 ] 127.0.0.1 /
+ERR: 1146:La table 'tianquecms.lvyecms_indexbanner' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `lvyecms_indexbanner`
+ERR: 1146:La table 'tianquecms.lvyecms_indexbanner' n'existe pas
+ [ SQL语句 ] : SELECT * FROM `lvyecms_indexbanner` ORDER BY listorders DESC LIMIT 20  
+
+[ 2017-03-28T15:03:30+08:00 ] 127.0.0.1 /
+ERR: 1146:La table 'tianquecms.lvyecms_indexbanner' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `lvyecms_indexbanner`
+ERR: 1146:La table 'tianquecms.lvyecms_indexbanner' n'existe pas
+ [ SQL语句 ] : SELECT * FROM `lvyecms_indexbanner` ORDER BY listorders DESC LIMIT 20  
+
+[ 2017-03-28T15:03:49+08:00 ] 127.0.0.1 /
+ERR: 1054:Champ 'listorders' inconnu dans order clause
+ [ SQL语句 ] : SELECT * FROM `lvyecms_index_banner` ORDER BY listorders DESC LIMIT 20  
+
+[ 2017-03-28T15:06:52+08:00 ] 127.0.0.1 /
+ERR: 1054:Champ 'listorders' inconnu dans order clause
+ [ SQL语句 ] : SELECT * FROM `lvyecms_index_banner` WHERE `catid` = 1 AND `status` = 99 ORDER BY listorders DESC LIMIT 10  
+ERR: 1054:Champ 'listorders' inconnu dans order clause
+ [ SQL语句 ] : SELECT * FROM `lvyecms_index_banner` ORDER BY listorders DESC LIMIT 20  
+
+[ 2017-03-28T15:07:12+08:00 ] 127.0.0.1 /
+ERR: 1054:Champ 'listorders' inconnu dans order clause
+ [ SQL语句 ] : SELECT * FROM `lvyecms_index_banner` ORDER BY listorders DESC LIMIT 20  
+
+[ 2017-03-28T15:07:42+08:00 ] 127.0.0.1 /
+ERR: 1054:Champ 'listorders' inconnu dans order clause
+ [ SQL语句 ] : SELECT * FROM `lvyecms_index_banner` ORDER BY listorders DESC LIMIT 20  
+
+[ 2017-03-28T19:36:38+08:00 ] 127.0.0.1 /index.php?c=code&m=get_code
+ERR: 无法加载控制器:Get_code
+

@@ -1,0 +1,10 @@
+[ 2017-04-01T11:53:22+08:00 ] 127.0.0.1 /index.php?a=competence&m=Attachments&g=Attachment&args=1,jpg|jpeg|gif|png|bmp,1,280,344,0&module=Content&catid=6&authkey=a38074244184f259713d38f96e90b605
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.003000s ]
+INFO: Run CustomData\Behavior\CustomDataApi [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `lvyecms_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lvyecms_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: Content D:\wamp\www\tianque\lvyecms\Application\Attachment\Controller\AttachmentsController.class.php 第 166 行.
+

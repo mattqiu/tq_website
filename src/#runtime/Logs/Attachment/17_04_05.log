@@ -1,0 +1,63 @@
+[ 2017-04-05T11:55:38+08:00 ] ::1 /index.php?a=competence&m=Attachments&g=Attachment&args=1,gif|jpg|jpeg|png|bmp|ico,1&module=content&catid=-1&authkey=db031218efdf5f5117e07476d55a2c7b
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.003000s ]
+INFO: Run CustomData\Behavior\CustomDataApi [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `lvyecms_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lvyecms_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: Content D:\wamp\www\tianque\lvyecms\Application\Attachment\Controller\AttachmentsController.class.php 第 166 行.
+
+[ 2017-04-05T11:56:58+08:00 ] ::1 /index.php?a=competence&m=Attachments&g=Attachment&args=1,gif|jpg|jpeg|png|bmp|ico,1&module=content&catid=-1&authkey=db031218efdf5f5117e07476d55a2c7b
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.003000s ]
+INFO: Run CustomData\Behavior\CustomDataApi [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `lvyecms_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lvyecms_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: Content D:\wamp\www\tianque\lvyecms\Application\Attachment\Controller\AttachmentsController.class.php 第 166 行.
+
+[ 2017-04-05T11:59:04+08:00 ] ::1 /index.php?a=competence&m=Attachments&g=Attachment&args=1,gif|jpg|jpeg|png|bmp|ico,1&module=content&catid=-1&authkey=db031218efdf5f5117e07476d55a2c7b
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.004000s ]
+INFO: Run CustomData\Behavior\CustomDataApi [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `lvyecms_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lvyecms_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: Content D:\wamp\www\tianque\lvyecms\Application\Attachment\Controller\AttachmentsController.class.php 第 166 行.
+
+[ 2017-04-05T12:01:14+08:00 ] ::1 /index.php?a=competence&m=Attachments&g=Attachment&args=1,gif|jpg|jpeg|png|bmp|ico,1&module=content&catid=-1&authkey=db031218efdf5f5117e07476d55a2c7b
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.002000s ]
+INFO: Run CustomData\Behavior\CustomDataApi [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `lvyecms_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lvyecms_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: Content D:\wamp\www\tianque\lvyecms\Application\Attachment\Controller\AttachmentsController.class.php 第 166 行.
+
+[ 2017-04-05T12:05:53+08:00 ] ::1 /index.php?a=competence&m=Attachments&g=Attachment&args=1,gif|jpg|jpeg|png|bmp|ico,1&module=content&catid=-1&authkey=db031218efdf5f5117e07476d55a2c7b
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.002000s ]
+INFO: Run CustomData\Behavior\CustomDataApi [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `lvyecms_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lvyecms_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: Content D:\wamp\www\tianque\lvyecms\Application\Attachment\Controller\AttachmentsController.class.php 第 166 行.
+
+[ 2017-04-05T12:05:58+08:00 ] ::1 /index.php?a=swfupload_json&m=Attachments&g=Attachment&aid=31&src=/d/file/content/2017/04/58e46d2578ef6.ico&filename=favicon.ico
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.002000s ]
+INFO: Run CustomData\Behavior\CustomDataApi [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `lvyecms_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lvyecms_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lvyecms_attachment` [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
